@@ -57,7 +57,7 @@ export const signup = async (req, res) => {
             try {
                 const recipient =
                     process.env.NODE_ENV === "development"
-                        ? "kirank75884@gmail.com"   // your email
+                        ? "arunkumarns806@gmail.com"   // your email
                         : savedUser.email;
 
                 await sendWelcomeEmail(
